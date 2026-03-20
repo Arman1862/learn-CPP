@@ -19,11 +19,28 @@ int main() {
     cout << sum << endl;
 
     // what about assign float in int type?
-    int price = 91.99;
-    cout << price << endl;
+    int priceint = 91.99;
+    cout << priceint << endl;
     // the return is 91, it's truncated (terpotong)
+    
+    // so we can use type double for float
+    double priceflt = 91.99;
+    cout << priceflt << endl;
 
-        
+    // Single character is use char
+    char grade = 'A';
+    cout << grade << endl;
+    // it can be error if the grade value more than one char
+
+    // Boolean, yap finnaly a bool
+    bool student = true;
+    cout << student << endl;
+    // the return is 1 for true and 0 for false
+
+    // string, objects that represent a sequence of text
+    string name = "arman";
+    // cout << name << endl;
+    cout << "My Name Is: " << name << endl;
 
     return 0;
 }
